@@ -1,19 +1,18 @@
 import Button from "@mui/material/Button";
-import React, { Component } from "react";
-import { JsxElement } from "typescript";
+import React from "react";
 
 
 interface Props {
 DesingB?: 'contained'|'outlined' |'text';
+ColorB?:'inherit'|'error'|'success'|'warning';
 text?:string;
-onClick:Component
 
 }
 
 export function ModButton(props: Props): JSX.Element {
     return (
         <>
-        <Button onClick ={onClick} variant={props.DesingB || 'contained'}>
+        <Button  variant={props.DesingB || 'contained'} color={props.ColorB || "primary"}>
             {props.text}
         </Button>
         </>

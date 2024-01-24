@@ -2,8 +2,8 @@ import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
+import { ModButton } from '../../Button';
+import style from './index.module.css'
 
 
 
@@ -11,16 +11,13 @@ export default function ModAppBar() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position='static'>
-        <Toolbar>
-          
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            OZ
-          </Typography>
-          
-          <Button href='/'color="inherit">Dashboard</Button>
-          <Button href='/login' color="inherit">Login</Button>
-          
+      <AppBar position='static' className={style.grid}>
+        <Toolbar >
+          <ModButton ColorB='inherit' DesingB='text' text='Dashboard'></ModButton>
+          <ModButton ColorB='inherit' DesingB='text' text='OLT'></ModButton>
+          <ModButton ColorB='inherit' DesingB='text' text='ONT'></ModButton>
+          <ModButton ColorB='inherit' DesingB='text' text='Sistema'></ModButton>
+          <ModButton ColorB='inherit' DesingB='text' text='Ajustes'></ModButton>
         </Toolbar>
       </AppBar>
     </Box>
