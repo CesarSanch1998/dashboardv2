@@ -11,7 +11,7 @@ export default function ModAppBar() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position='static' className={style.grid}>
+      <AppBar position='static' className={style.order}>
         <Toolbar >
           <ModButton ColorB='inherit' DesingB='text' text='Dashboard'></ModButton>
           <ModButton ColorB='inherit' DesingB='text' text='OLT'></ModButton>
