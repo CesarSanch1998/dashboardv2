@@ -10,6 +10,7 @@ text?:string;
 }
 
 export function ModButton(props: Props): JSX.Element {
+
     return (
         <>
         <Button  variant={props.DesingB || 'contained'} color={props.ColorB || "primary"}>
