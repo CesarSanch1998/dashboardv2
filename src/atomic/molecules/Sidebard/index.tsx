@@ -9,7 +9,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import { useState } from 'react';
-import { ModButton } from '../../Button';
+import { ModButton } from '../../atoms/Button';
 
 
 type Anchor = 'top' | 'left' | 'bottom' | 'right';

@@ -1,0 +1,25 @@
+.ms_order{
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.layout_order{
+    /* outline: green solid 2px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.color-border{
+    /* outline: 2px blue solid; */
+    display: grid;
+    justify-content: center;
+    margin: 10px;
+    grid-template-columns: 74% 30%;
+    grid-template-rows: 100%;
+}

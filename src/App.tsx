@@ -1,5 +1,5 @@
 import React from 'react';
-import { TestViews } from './views/testviews';
+import { TestViews } from './views/TEST/testviews2';
 
 function App() {
   return (

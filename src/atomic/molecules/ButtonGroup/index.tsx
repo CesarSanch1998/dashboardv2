@@ -1,6 +1,6 @@
 import ButtonGroup from "@mui/material/ButtonGroup";
-import { ModButton } from "../../Button";
-import {G_Button} from "../../../../definitions/TextArrays";
+import { ModButton } from "../../atoms/Button";
+import {G_Button} from "../../../definitions/TextArrays";
 
 
 
